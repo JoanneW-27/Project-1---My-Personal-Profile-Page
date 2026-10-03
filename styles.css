@@ -55,9 +55,16 @@ a:hover {
   color: white
 }
 
-header {
+header .main-profile {
   text-align: center;
-  background: url('images/Cover Image.jpg') no-repeat top center ;
+  background: url('images/main cover image.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header .interests-page {
+  text-align: center;
+  background: url('images/interests cover image.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
