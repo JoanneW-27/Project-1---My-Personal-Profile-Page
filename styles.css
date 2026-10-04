@@ -55,23 +55,32 @@ a:hover {
   color: white
 }
 
-header .main-profile {
+header {
   text-align: center;
-  background: url('images/main cover image.jpg') no-repeat top center ;
+  background: url('images/main-cover-image.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+  background-position: center 40%;
 }
-header .interests-page {
-  text-align: center;
-  background: url('images/interests cover image.png') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
+
 header {
   line-height: 1.5;
 }
+
+header.interests {
+  text-align: center;
+  background: url('images/interests-cover-image.png') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  background-position: center 20%;
+}
+
+header.interests {
+  line-height: 1.5;
+}
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -125,6 +134,24 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+ul.artists {
+  padding: 0;
+  text-align: center;
+}
+
+.artists li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #11b4b9;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.artists li:nth-child(odd) {
+  background: #e761ca;
 }
 
 footer {
