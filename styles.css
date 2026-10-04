@@ -81,13 +81,26 @@ header.interests {
   line-height: 1.5;
 }
 
+header.hobbies {
+  text-align: center;
+  background: url('images/crochet.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  background-position: center 40%;
+}
+
+header.hobbies {
+  line-height: 1.5;
+}
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 30%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .8s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -152,6 +165,63 @@ ul.artists {
 
 .artists li:nth-child(odd) {
   background: #e761ca;
+}
+
+ul.hobbies {
+  padding: 0;
+  text-align: left;
+}
+
+.hobbies li {
+  border-radius: 6px;
+  background: #11ad86;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.hobbies li:nth-child(odd) {
+  background: #067a0c;
+}
+
+.crochet-bookmark {
+  margin-top: 5px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5%;
+  border: 5px solid white;
+}
+
+.crochet-blanket {
+  margin-top: 5px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5%;
+  border: 5px solid white;
+}
+
+.card-drawings {
+  margin-top: 5px;
+  width: 400px;
+  height: 300px;
+  border-radius: 5%;
+  border: 5px solid white;
+}
+
+.drawing {
+  margin-top: 5px;
+  width: 400px;
+  height: 400px;
+  border-radius: 5%;
+  border: 5px solid white;
+}
+
+.diy {
+  margin-top: 5px;
+  width: 300px;
+  height: 350px;
+  border-radius: 5%;
+  border: 5px solid white;
 }
 
 footer {
